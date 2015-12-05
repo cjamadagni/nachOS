@@ -1,0 +1,85 @@
+Nonpreemptive Priority scheduling
+Starting at Ticks: total 10
+Queuing threads.
+Queuing thread threadA at Time 10, priority 7
+Queuing thread threadB at Time 20, priority 5
+Queuing thread threadC at Time 30, priority 2
+Queuing thread threadD at Time 40, priority 8
+Queuing thread threadE at Time 50, priority 6
+threadD, Starting Burst of 7 Ticks: total 70
+threadD, Still 6 to go Ticks: total 80
+threadD, Still 5 to go Ticks: total 90
+threadD, Still 4 to go Ticks: total 100
+threadD, Still 3 to go Ticks: total 110
+threadD, Still 2 to go Ticks: total 120
+threadD, Still 1 to go Ticks: total 130
+threadD, Still 0 to go Ticks: total 140
+threadD, Done with burst Ticks: total 140
+threadA, Starting Burst of 5 Ticks: total 150
+threadA, Still 4 to go Ticks: total 160
+threadA, Still 3 to go Ticks: total 170
+threadA, Still 2 to go Ticks: total 180
+threadA, Still 1 to go Ticks: total 190
+threadA, Still 0 to go Ticks: total 200
+threadA, Done with burst Ticks: total 200
+threadE, Starting Burst of 12 Ticks: total 210
+threadE, Still 11 to go Ticks: total 220
+threadE, Still 10 to go Ticks: total 230
+threadE, Still 9 to go Ticks: total 240
+threadE, Still 8 to go Ticks: total 250
+threadE, Still 7 to go Ticks: total 260
+threadE, Still 6 to go Ticks: total 270
+threadE, Still 5 to go Ticks: total 280
+threadE, Still 4 to go Ticks: total 290
+threadE, Still 3 to go Ticks: total 300
+threadE, Still 2 to go Ticks: total 310
+threadE, Still 1 to go Ticks: total 320
+threadE, Still 0 to go Ticks: total 330
+threadE, Done with burst Ticks: total 330
+threadB, Starting Burst of 19 Ticks: total 340
+threadB, Still 18 to go Ticks: total 350
+threadB, Still 17 to go Ticks: total 360
+threadB, Still 16 to go Ticks: total 370
+threadB, Still 15 to go Ticks: total 380
+threadB, Still 14 to go Ticks: total 390
+threadB, Still 13 to go Ticks: total 400
+threadB, Still 12 to go Ticks: total 410
+threadB, Still 11 to go Ticks: total 420
+threadB, Still 10 to go Ticks: total 430
+threadB, Still 9 to go Ticks: total 440
+threadB, Still 8 to go Ticks: total 450
+threadB, Still 7 to go Ticks: total 460
+threadB, Still 6 to go Ticks: total 470
+threadB, Still 5 to go Ticks: total 480
+threadB, Still 4 to go Ticks: total 490
+threadB, Still 3 to go Ticks: total 500
+threadB, Still 2 to go Ticks: total 510
+threadB, Still 1 to go Ticks: total 520
+threadB, Still 0 to go Ticks: total 530
+threadB, Done with burst Ticks: total 530
+threadC, Starting Burst of 13 Ticks: total 540
+threadC, Still 12 to go Ticks: total 550
+threadC, Still 11 to go Ticks: total 560
+threadC, Still 10 to go Ticks: total 570
+threadC, Still 9 to go Ticks: total 580
+threadC, Still 8 to go Ticks: total 590
+threadC, Still 7 to go Ticks: total 600
+threadC, Still 6 to go Ticks: total 610
+threadC, Still 5 to go Ticks: total 620
+threadC, Still 4 to go Ticks: total 630
+threadC, Still 3 to go Ticks: total 640
+threadC, Still 2 to go Ticks: total 650
+threadC, Still 1 to go Ticks: total 660
+threadC, Still 0 to go Ticks: total 670
+threadC, Done with burst Ticks: total 670
+No threads ready or runnable, and no pending interrupts.
+Assuming the program completed.
+Machine halting!
+
+Ticks: total 670, idle 0, system 670, user 0
+Disk I/O: reads 0, writes 0
+Console I/O: reads 0, writes 0
+Paging: faults 0
+Network I/O: packets received 0, sent 0
+
+Cleaning up...
